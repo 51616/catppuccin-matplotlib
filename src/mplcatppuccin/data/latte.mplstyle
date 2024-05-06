@@ -9,27 +9,37 @@ axes.prop_cycle: cycler('color', ['1e66f5', 'fe640b', '40a02b', 'd20f39', '8839e
 # commented out, allowwing using raw url
 # image.cmap: latte
 
+lines.solid_capstyle: round
+
 # Font color: Text
-text.color: 4c4f69
-axes.labelcolor: 4c4f69
-xtick.labelcolor: 4c4f69
-ytick.labelcolor: 4c4f69
+text.color: 7f7f7f
+axes.labelcolor: eeeeee
+xtick.labelcolor: eeeeee
+ytick.labelcolor: eeeeee
 
 # Background color: Base
-figure.facecolor: eff1f5
-axes.facecolor: eff1f5
-savefig.facecolor: eff1f5
+figure.facecolor: white
+# axes.facecolor: eff1f5
+axes.facecolor: F7FBFC
 
 # Edge color: Surface 0
-axes.edgecolor: ccd0da
-legend.edgecolor: ccd0da
-xtick.color: ccd0da
-ytick.color: ccd0da
-patch.edgecolor: ccd0da
-hatch.color: ccd0da
+# axes.edgecolor: ccd0da
+# legend.edgecolor: ccd0da
+# xtick.color: ccd0da
+# ytick.color: ccd0da
+# patch.edgecolor: ccd0da
+# hatch.color: ccd0da
+
+axes.edgecolor: eeeeee
+legend.edgecolor: eeeeee
+xtick.color: eeeeee
+ytick.color: eeeeee
+patch.edgecolor: eeeeee
+hatch.color: eeeeee
 
 # Grid color: Surface 0
-grid.color: ccd0da
+# grid.color: ccd0da
+grid.color: eeeeee
 
 # Boxplots: Overlay 0
 boxplot.flierprops.color: 4c4f69
