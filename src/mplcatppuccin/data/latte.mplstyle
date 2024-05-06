@@ -12,34 +12,26 @@ axes.prop_cycle: cycler('color', ['1e66f5', 'fe640b', '40a02b', 'd20f39', '8839e
 lines.solid_capstyle: round
 
 # Font color: Text
-text.color: 7f7f7f
-axes.labelcolor: eeeeee
-xtick.labelcolor: eeeeee
-ytick.labelcolor: eeeeee
+text.color: 4c4f69
+axes.labelcolor: 4c4f69
+xtick.labelcolor: 4c4f69
+ytick.labelcolor: 4c4f69
 
 # Background color: Base
-figure.facecolor: white
-# axes.facecolor: eff1f5
-axes.facecolor: F7FBFC
+figure.facecolor: eff1f5
+axes.facecolor: eff1f5
+savefig.facecolor: eff1f5
 
 # Edge color: Surface 0
-# axes.edgecolor: ccd0da
-# legend.edgecolor: ccd0da
-# xtick.color: ccd0da
-# ytick.color: ccd0da
-# patch.edgecolor: ccd0da
-# hatch.color: ccd0da
-
-axes.edgecolor: eeeeee
-legend.edgecolor: eeeeee
-xtick.color: eeeeee
-ytick.color: eeeeee
-patch.edgecolor: eeeeee
-hatch.color: eeeeee
+axes.edgecolor: ccd0da
+legend.edgecolor: ccd0da
+xtick.color: ccd0da
+ytick.color: ccd0da
+patch.edgecolor: ccd0da
+hatch.color: ccd0da
 
 # Grid color: Surface 0
-# grid.color: ccd0da
-grid.color: eeeeee
+grid.color: ccd0da
 
 # Boxplots: Overlay 0
 boxplot.flierprops.color: 4c4f69
